@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.holder .child{
+	background-color:red;
+	width:20%;
+	height:130px;
+	margin:2px;
+}
